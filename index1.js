@@ -36,3 +36,18 @@ console.log(me)
    Programmatically add to the object Me an array "skills" that contains the programming languages that you know
 */
 
+let skills =["C", "Java","C++"]
+me = Object.assign( me, {skills:["C", "Java","C++"]})
+console.log(me)
+
+/* Ex.G 
+   Programmatically remove the last skill from the array "skills" inside of the "me" object
+   */
+  let me2 ={
+    name: "Sheye ",
+    surname: "Banmeke",
+    age: "39",
+    skills:["C", "Java","C++"]
+  }
+me2.skills.pop()
+console.log(me2)
